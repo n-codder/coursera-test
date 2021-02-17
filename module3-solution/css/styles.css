@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+  font-family: 'Newsreader', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#808080;
+  border-radius: 0;
+  border-bottom:1px solid black;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+	padding: 15px 0 15px 10px;
+}
+
+.navbar-brand h1 { /* Brand name */
+  color: #020202;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+.navbar-button-space {
+	margin-right: 15px;
+	margin-bottom: 7px;
+}
+
+.navbar-nav-bg {
+	background-color: #d4d4d4;
+	margin-right: -15px;
+    margin-left: -15px;
+}
+.nav-item-style {
+	border-bottom: 1px black solid;
+	padding-top: 5px;
+}
+
+.nav-item .nav-link {
+	font-size: 1.2em;
+}
+
+.main-title {
+	margin-top: 40px;
+}
+.product-main {	
+	margin-top: 40px;
+	padding: 40px;
+	background-color: gray;
+}
+
+.product-main h2{
+	padding-bottom: 20px;
+}
+
+.product-main p {
+	font-size: 1.15em;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 576px){
+	.product-main {
+		width: 75%;
+		margin:40px auto 0;
+		padding:40 40px;
+	}
+}
